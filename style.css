@@ -1,0 +1,232 @@
+<head>
+  <style>
+
+* {
+    box-sizing: border-box;
+}
+
+/*Landing Page*/
+
+.backimage {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    top: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .2em 1em;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 19px;
+}
+
+#header svg {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    width: 100%
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+    margin-left: 10px;
+    font-family: "Muli", sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-size: 34px;
+    padding: 20px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: slategray;
+}
+
+p {
+    font-size: 22px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 60px;
+    font-family: "Karma", serif;
+}
+
+.work-container {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/*About Page*/
+
+#about {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#profile {
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-right: 0;
+    float: left;
+    word-wrap: break-word;
+}
+
+input [type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #313740;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input [type=submit] {
+    background-color: #242021;
+    color: #A4A5A6;
+    padding: 12px 20px;
+    border: 1px solid #313740;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+/*Design Page*/
+
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    padding: 0 4px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    margin-bottom: 40px;
+}
+
+.column {
+    -ms-flex: 33.33%;
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 66.66%;
+        flex: 66.66%;
+        max-width: 66.66%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/*Film Page*/
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    left: 10px;
+    right: 10px;
+    top: 0;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*Footer*/
+
+footer {
+    color: gainsboro;
+    background-color: #A4A5A6;
+    opacity: 50%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#copy {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.social {
+    padding: 5px;
+    align-content: center;
+    float: left;
+    display: block;
+    position: fixed;
+}
+
+}
+
+  </style>
+</head>
