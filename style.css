@@ -111,6 +111,44 @@ p {
     color: white;
 }
 
+@media only screen and (max-width: 400px) {
+    p {
+        padding: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    h4 {
+        font-size: 19px;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    p {
+        padding: 15px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    h4 {
+        font-size: 25px;
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+}
+
 .work-container {
     text-align: center;
 }
