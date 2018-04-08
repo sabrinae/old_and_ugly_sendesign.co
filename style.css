@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #180040;
+    background-color: #F0F8FD;
     padding: 0;
     margin: 0;
 }
@@ -58,16 +58,13 @@ body {
     width: 100%;
 }
 
-#header svg {
-    margin-top: 0;
+.header {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 20px;
-    position: fixed;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
-    width: 100%
+    width: 100%;
+    padding: 0;
 }
 
 h1{
@@ -80,7 +77,8 @@ h1{
     word-wrap: break-word;
     text-transform: uppercase;
     line-height: 125%;
-    color: gainsboro;
+    color: slategray;
+    text-shadow: .5px .5px;
 }
 
 h4 {
@@ -96,7 +94,7 @@ h4 {
     margin-bottom: 10px;
     text-decoration: none;
     color: slategray;
-    text-shadow: 10px;
+    text-shadow: .5px .5px;
 }
 
 p {
@@ -108,7 +106,8 @@ p {
     margin-right: 45px;
     margin-top: 20px;
     font-family: "Tajawal", sans-serif;
-    color: white;
+    color: #380A76;
+    text-shadow: .2px .2px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -171,19 +170,22 @@ p {
 
 #profile {
     margin-right: 20px;
-    margin-left: 40px;
+    margin-left: 60px;
     margin-top: 60px;
     margin-bottom: 60px;
     padding-right: 0;
+    padding: 0;
+    align-self: center;
     float: left;
     word-wrap: break-word;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #name, #email {
     font-family: "Tajawal", sans-serif white;
     font-size: 12px;
     width: 100%;
-    border: 5px solid white;
+    border: 5px solid #380A76;
     border-radius: 0;
     padding: 9px;
     margin-bottom: 12px;
@@ -198,7 +200,7 @@ input [type=text], select, textarea {
     font-family: "Tajawal", sans-serif white;
     font-size: 14px;
     background-color: transparent;
-    border: 5px solid white;
+    border: 5px solid #380A76;
     border-radius: 0;
     box-sizing: border-box;
     margin-top: 12px;
@@ -242,6 +244,7 @@ input [type=submit] {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 @media (max-width: 800px) {
@@ -285,7 +288,6 @@ input [type=submit] {
 /*Footer*/
 
 footer {
-    background-color: slategray;
     opacity: 50%;
     margin-top: 20px;
     margin-bottom: 0;
@@ -298,7 +300,7 @@ footer {
     vertical-align: middle;
     padding: 20px;
     font-size: 14px;
-    color: white;
+    color: slategray;
     text-decoration: none;
 }
 
