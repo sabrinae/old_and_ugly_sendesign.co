@@ -18,6 +18,52 @@
     <meta name="description" content="An online portfolio displaying digital design, video, and web development">
     <meta name="author" content="Sabrina Easley">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+.container {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.image {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #380A76;
+}
+
+.container:hover .overlay {
+    opacity: .8;
+}
+
+.text {
+    color: white;
+    text-shadow: .2px .2px;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+}
+  
+  </style>
 </head>   
     
 <body>
@@ -33,39 +79,39 @@
 <svg width="100%" height="100%" viewBox="0 0 1280 451" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><rect x="-1.55" y="-0.079" width="1281.41" height="450.852" style="fill:#ddc8c8;"/><g transform="matrix(1,-0.000385694,0.000385694,1,0.0554004,0.00381973)"><text x="298.397px" y="290.605px" style="font-family:'Arial-ItalicMT', 'Arial', sans-serif;font-style:italic;font-size:181.624px;fill:none;stroke:#a6009e;stroke-width:1px;">DESIGN.</text></g><g transform="matrix(1,-0.000385694,0.000385694,1,0.0554021,0.0127911)"><text x="321.657px" y="290.605px" style="font-family:'Arial-ItalicMT', 'Arial', sans-serif;font-style:italic;font-size:181.624px;fill:#a6009e;fill-opacity:0.45098;">DESIGN.</text></g><g transform="matrix(1,-0.000385694,0.000385694,1,0.0554036,0.0207178)"><text x="342.209px" y="290.605px" style="font-family:'Arial-ItalicMT', 'Arial', sans-serif;font-style:italic;font-size:181.624px;">DESIGN.</text></g></svg>
     </div>
     
-    <h4><i>Works submitted to 99designs, Getty iStock Images, social media accounts that I run and internships I have been involved with</i></h4>
+    <h4><i>Graphic Design Projects</i></h4>
 
 <!--graphics-->
 <div class="row">
     <div class="column">
-      <a href="https://psychopompmag.com/2017/11/08/an-interview-with-anne-valente-final-judge-for-the-2018-psychopomp-magazine-short-fiction-contest/" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f0d60755160973.5978e110c4f49.jpg" style="width: 100%"></a>
-        
-      <a href="https://99designs.com/profiles/3033001" target="_blank"><img src="https://images-workbench.99static.com/zM7tnWNTGil_4rOuLSC8GGk49n8=/0x0:1158x1158/fit-in/500x500/filters:fill(white):format(webp)/99designs-contests-attachments/89/89975/attachment_89975743" alt="Logo for Kaitlyn's Bat Mitzvah" style="width: 100%"></a>
-        
-      <a href="https://www.behance.net/gallery/54081375/A-Study-in-Eyes" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/e412b354081375.594c217a56138.png" style="width: 100%"></a>
-    </div>
-    
-   <div class="column"> 
-       <a href="https://psychopompmag.com/2018/03/03/review-ventriloquisms-by-jaclyn-watterson/" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/52184258207617.59f332f5aed07.png" style="width: 100%"></a>
-       
-       <a href="https://99designs.com/profiles/3033001" target="_blank"><img src="https://images-workbench.99static.com/hXvhj4DWSH0oRJwAivcoZmN5YhI=/181x22:1036x877/fit-in/500x500/filters:fill(white):format(webp)/99designs-contests-attachments/91/91687/attachment_91687095" alt="Facebook Banner for the 2018 Petty Awards" style="width: 100%"></a>
-        </div>
-        
-    <div class="column">
-        <a href="https://www.behance.net/seasley4049dd1" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5ef2c655160973.5978e110c526d.jpg" style="width: 100%"></a>
-        
-        <a href="https://www.instagram.com/hercampusstolaf/" target="_blank"><img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/17759665_1513494755358617_7004465096953397684_n.png?oh=cb809164c73577248827123e4aa47294&oe=5B26E64E"style="width: 100%"></a>
+    <div class="container">    
+      <a href="./psy.html"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f0d60755160973.5978e110c4f49.jpg" style= "width: 100%" class="image">
+        <div class="overlay">
+            <div class="text">Psychopomp Literary Magazine</div>
+          </div></a>
+          </div>
+      
+      <div class="container">
+      <a href="./hc.html"><img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/17759665_1513494755358617_7004465096953397684_n.png?oh=cb809164c73577248827123e4aa47294&oe=5B26E64E"style="width: 100%" class="image">
+          <div class="overlay">
+          <div class="text">Her Campus Digital Marketing</div>
+          </div>
+          </a>
         </div>
     </div>
     
-    <h4>Social Media Coordinator for Her Campus St. Olaf</h4>
-    
-    <p>Her Campus is a nation-wide publication catering towards collegiette women, and there are multiple branches for several colleges and universities. The branch at St. Olaf publishes pieces from current events to DIY projects to meditation methods for de-stressing. My role with this branch of the publication is running the Facebook, Twitter, and Instagram accounts as well as writing the occassional sponsored article.</p>
-    
-    <h4>New Media/Editorial Intern with <i>Psychopomp Literary Magazine</i></h4>
-    
-    <p>From July of 2017 up through January of 2018, I helped the staff at <i>Psychopomp</i> by copyediting submissions, writing reviews on contemporary novels, and creating graphics to be utilized in posts and reviews. I also created and posted to the magazine's Instagram account.</p>
-    
+   <div class="column">
+       <div class="container">
+      <a href="./99.html"><img src="https://i.imgur.com/GOgXBEZ.png" style="width: 100%" class="image">
+           <div class="overlay">
+          <div class="text">Freelance Work</div>
+          </div>
+           </a>
+       </div>
+    </div>
+    </div>
+
+<h4>Stock photography and images submitted to Getty iStock</h4>
 <!--stock photos-->
 <div class="row">
     <div class="column">
